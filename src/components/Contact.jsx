@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
+import { FaEnvelope, FaMapMarkedAlt, FaPhone,FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -17,8 +17,16 @@ const Contact = () => {
                 </a>
             </div>
             <div className='mb-4'>
-                <FaPhone className='inline-block text-green-400 mr-2'></FaPhone>
-                <span>6281877133 </span>
+                <FaLinkedin className='inline-block text-green-400 mr-2'></FaLinkedin>
+                <span>https://www.linkedin.com/in/bhuvaneswari-kalavakollu-9bb774247/</span>
+            </div>
+            <div className='mb-4'>
+                <FaInstagram className='inline-block text-green-400 mr-2'></FaInstagram>
+                <span>https://www.instagram.com/bhuna2309</span>
+            </div>
+            <div className='mb-4'>
+                <FaGithub className='inline-block text-green-400 mr-2'></FaGithub>
+                <span>https://github.com/bhuvaneswariiiii</span>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-green-400 mr-2'></FaMapMarkedAlt>
